@@ -18,5 +18,9 @@ module.exports = {
     ],
     'no-plusplus': 'off',
     'no-console': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: true },
+    ],
   },
 };
