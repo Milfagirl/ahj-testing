@@ -38,7 +38,7 @@ export default function validate(data) {
         payment = 'master';
         break;
       case 6:
-        payment = 'maestro';
+        payment = 'discover';
         break;
     }
   } else {
